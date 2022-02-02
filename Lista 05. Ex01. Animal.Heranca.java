@@ -4,9 +4,16 @@ public class Animal {
 
 	private String nome;
 	private int idade;
-	private String EmitirSom;
-	private int Correr;
-	private String Subir;
+	private String emitirSom;
+	private String especie;
+	
+	 public String getEspecie() {
+		return especie;
+	}
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
+	//sempre letra minúscula + boa prática +
 	public String getNome() {
 		return nome;
 	}
@@ -20,21 +27,10 @@ public class Animal {
 		this.idade = idade;
 	}
 	public String getEmitirSom() {
-		return EmitirSom;
+		return emitirSom;
 	}
 	public void setEmitirSom(String emitirSom) {
-		EmitirSom = emitirSom;
+		this.emitirSom = emitirSom;
 	}
-	public int getCorrer() {
-		return Correr;
-	}
-	public void setCorrer(int correr) {
-		Correr = correr;
-	}
-	public String getSubir() {
-		return Subir;
-	}
-	public void setSubir(String subir) {
-		Subir = subir;
-	}
-	}
+	
+}
